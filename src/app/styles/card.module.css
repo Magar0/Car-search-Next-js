@@ -1,0 +1,52 @@
+.card {
+    min-width: 90%;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 10px 10px 0 10px;
+    border: none;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.year {
+    outline: 2px dashed var(--bs-primary-color);
+    padding: 0 10px;
+    display: flex;
+    place-items: center;
+    margin-bottom: 8px;
+    outline-offset: -1px;
+    border-radius: 10px;
+}
+
+.card i {
+    color: var(--bs-primary-color);
+    margin: 0 10px
+}
+
+.card p {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.like_icon i {
+    cursor: pointer;
+}
+
+.like_icon i:nth-child(2) {
+    color: red;
+}
+
+.btn:hover {
+    color: rgb(55, 55, 55) !important;
+    background-color: rgb(80, 188, 70) !important;
+    border: none;
+}

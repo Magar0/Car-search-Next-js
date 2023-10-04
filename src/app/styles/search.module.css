@@ -1,0 +1,41 @@
+.search_icon {
+    font-size: 2rem;
+}
+
+.navbar {
+    width: 90%;
+    background-color: var(--bs-supporting-color);
+    padding: 1rem 2rem;
+    margin: 5px auto 10px auto;
+    border: 2px solid var(--bs-main-color);
+    border-radius: 1.2rem;
+    box-shadow: 5px 10px 20px 5px #c7c7c7ab;
+}
+
+.navbar input {
+    width: 300;
+}
+
+.search_icon {
+    cursor: pointer;
+    margin: 2px 0 0 -45px;
+}
+
+.search_icon:hover {
+    color: blue;
+}
+
+.filter select {
+    padding: 7px 15px;
+    margin-right: 20px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.2s;
+}
+
+.filter select:hover {
+    transform: scale(1.1);
+}
