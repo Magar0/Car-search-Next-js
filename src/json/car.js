@@ -210,7 +210,7 @@ const jsonData = [
     {
         "id": 17,
         "model": "Bonneville",
-        "make": "Subaru",
+        "make": "Toyota",
         "model_year": 2023,
         "price": 360,
         "people": 4,
@@ -249,7 +249,7 @@ const jsonData = [
     {
         "id": 20,
         "model": "Mighty Max",
-        "make": "Subaru",
+        "make": "Toyota",
         "model_year": 2016,
         "price": 900,
         "people": 4,
@@ -496,7 +496,7 @@ const jsonData = [
     {
         "id": 39,
         "model": "Savana 2500",
-        "make": "Volkswagen",
+        "make": "Chevrolet",
         "model_year": 2019,
         "price": 600,
         "people": 4,
