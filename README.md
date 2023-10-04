@@ -19,7 +19,7 @@ https://github.com/Magar0/Car-search-Next-js/assets/35245789/35f2fdc5-64aa-4ce0-
    
       <img src="https://github.com/Magar0/Car-search-Next-js/assets/35245789/ec6bd382-2516-47d1-b58f-100e0c5910b4">
 
-4.Search and Filter category0 option available.
+4.Search and Filter category option available.
 
 ![filtersearch](https://github.com/Magar0/Car-search-Next-js/assets/35245789/2af0feb8-baf6-4cc2-9084-d45708a0c60a)
       
