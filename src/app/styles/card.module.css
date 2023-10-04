@@ -13,7 +13,7 @@
 
 .img {
     width: 380px;
-    height: 270px;
+    height: 235px;
     border-radius: 1rem;
 }
 
@@ -55,11 +55,11 @@
 @media (max-width:1400px) {
 
     .card {
-        width: 300px;
+        width: 320px;
     }
 
     .img {
-        width: 280px;
-        height: 200px;
+        width: 300px;
+        height: 190px;
     }
 }
