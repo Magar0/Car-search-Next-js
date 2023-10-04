@@ -1,5 +1,5 @@
 .card {
-    min-width: 90%;
+    width: 400px;
     background-color: white;
     border-radius: 1rem;
     padding: 10px 10px 0 10px;
@@ -12,8 +12,8 @@
 }
 
 .img {
-    width: 100%;
-    height: auto;
+    width: 380px;
+    height: 270px;
     border-radius: 1rem;
 }
 
@@ -32,9 +32,10 @@
     margin: 0 10px
 }
 
-.card p {
+.card_text p {
     font-weight: 300;
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 .like_icon i {
@@ -49,4 +50,16 @@
     color: rgb(55, 55, 55) !important;
     background-color: rgb(80, 188, 70) !important;
     border: none;
+}
+
+@media (max-width:1400px) {
+
+    .card {
+        width: 300px;
+    }
+
+    .img {
+        width: 280px;
+        height: 200px;
+    }
 }
