@@ -3,7 +3,8 @@
 Mock data is taken from local JSON file
 
 Short Video of my rpoject:
-https://github.com/Magar0/Car-search-Next-js/assets/35245789/bf35f348-3dbd-4968-9417-83b08f6939ba
+https://github.com/Magar0/Car-search-Next-js/assets/35245789/35f2fdc5-64aa-4ce0-9521-3f9a5e0527e9
+
 
 1. Libraries Used:
      <p align="center">
