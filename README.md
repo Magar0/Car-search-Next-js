@@ -15,9 +15,14 @@ https://github.com/Magar0/Car-search-Next-js/assets/35245789/35f2fdc5-64aa-4ce0-
    
 2. Global state management library, Redux is used to store data.
    
-3. Car cards are listed 3 on each row and at a time 6 cards are shown.
-   
-      <img src="https://github.com/Magar0/Car-search-Next-js/assets/35245789/ec6bd382-2516-47d1-b58f-100e0c5910b4">
+3. Display in card format and also made responsive with the help of Bootstrap.
+
+   Laptop View:
+![Home Page](https://github.com/Magar0/Car-search-Next-js/assets/35245789/db3ad734-6bdd-41a4-8d5a-e939aedf22c4)
+
+Mobile View:
+
+<img src="https://github.com/Magar0/Car-search-Next-js/assets/35245789/3baae007-bbdf-457a-b0d4-22b82203cac1" height="400" >
 
 4.Search and Filter category option available.
 
@@ -60,4 +65,8 @@ https://github.com/Magar0/Car-search-Next-js/assets/35245789/35f2fdc5-64aa-4ce0-
 12. Go Back button added which takes the user to exactly where it was before.
 
  ![goBack](https://github.com/Magar0/Car-search-Next-js/assets/35245789/9262602e-2893-4731-881b-edd46bd2229f)
-   
+
+ 13.Carousel added.
+
+ ![Carousel](https://github.com/Magar0/Car-search-Next-js/assets/35245789/279c51f0-55bd-4fcd-a196-355952baf901)
+
