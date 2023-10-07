@@ -39,3 +39,25 @@
 .filter select:hover {
     transform: scale(1.1);
 }
+
+
+/* Media querieas.......... */
+
+@media (max-width:768px) {
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    .filter select {
+        margin-right: 0;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width:768px) {
+    .navbar>div {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}

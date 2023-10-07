@@ -12,6 +12,7 @@ import Image from "next/image";
 import GoBack from "../btn/GoBack";
 import jsonData from "@/json/car";
 import { Button } from "@mui/material";
+import MyCarousel from "../Carousel";
 
 
 const ProductPage = () => {
@@ -49,11 +50,12 @@ const ProductPage = () => {
                         <div className={`row ${styles.item}`}>
 
                             <h2 className={`ms-5 my-4 ${styles.title}`} >{make} / <span className={styles.model}> {model} </span> <GoBack /> </h2>
-                            <div className="col-7">
-                                <Image src={img} alt="img" className="rounded-3" height={300} width={400} />
+                            <div className="col-sm-7 col-12 d-grid d-sm-inline-block justify-content-center ">
+                                {/* <Image src={img} alt="img" className="rounded-3" height={300} width={400} /> */}
+                                <MyCarousel img={img} height={265} width={450} interval={null} />
                             </div>
 
-                            <div className='col-5'>
+                            <div className='col-sm-5 col-8 offset-3 offset-sm-0'>
                                 <ul className="mt-4 list-unstyled">
                                     <li> <i><GoPeople /></i> {people} people </li>
                                     <li> <i><LuFuel /></i> {fuel} </li>

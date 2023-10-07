@@ -1,5 +1,4 @@
 import "@/../bootstrap/dist/css/bootstrap.min.css"
-import Image from "next/image"
 import Link from "next/link";
 import styles from "@/app/styles/card.module.css"
 import Tooltip from '@mui/material/Tooltip';
@@ -8,6 +7,7 @@ import { LuFuel } from "react-icons/lu";
 import { BsSpeedometer } from "react-icons/bs";
 import { PiSteeringWheel } from "react-icons/pi";
 import Like from "./Like";
+import MyCarousel from "./Carousel";
 
 const Card = (props) => {
 
@@ -16,7 +16,8 @@ const Card = (props) => {
     return (
         <>
             <div className={`card my-4 shadow ${styles.card}`}>
-                <Image src={img} className={styles.img} alt="img" height={200} width={300} />
+                {/* <Image src={img} className={styles.img} alt="img" height={200} width={300} /> */}
+                <MyCarousel img={img} height={200} width={300} interval={2000} />
 
                 <div className="card-body">
                     <div className="d-flex justify-content-between ">
@@ -51,7 +52,7 @@ const Card = (props) => {
 
                     <hr />
 
-                    <div className="d-flex justify-content-between ">
+                    <div className={`d-flex justify-content-between ${styles.card_bottom} `} >
                         <div>
                             <p><span className="fs-3">${price}</span> /month </p>
                         </div>

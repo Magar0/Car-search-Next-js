@@ -43,3 +43,16 @@
     background-color: #d03535 !important;
     font-weight: 600 !important;
 }
+
+
+/* Media queries ............  */
+@media (max-width:768px) {
+    .pagination {
+        padding: 5px;
+    }
+
+    .pagination p,
+    .pagination a {
+        font-size: 0.8rem !important;
+    }
+}

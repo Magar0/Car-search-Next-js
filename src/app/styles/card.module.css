@@ -55,11 +55,128 @@
 @media (max-width:1400px) {
 
     .card {
-        width: 320px;
+        width: 350px;
     }
 
     .img {
-        width: 300px;
+        width: 330px;
         height: 190px;
+    }
+}
+
+@media (max-width:1200px) {
+
+    .card {
+        width: 295px;
+    }
+
+    .img {
+        width: 275px;
+        height: 165px;
+    }
+
+    .card_bottom span {
+        font-size: 1.6rem !important;
+    }
+
+    .card_bottom p {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width:992px) {
+
+    .card {
+        width: 220px;
+    }
+
+    .img {
+        width: 200px;
+        height: 135px;
+    }
+
+    .card h5 {
+        font-size: 1rem;
+    }
+
+    .card_text p {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .card_bottom span {
+        font-size: 1.2rem !important;
+    }
+
+    .like_icon {
+        width: 165px;
+    }
+
+    .card_bottom p {
+        margin: 0;
+    }
+}
+
+
+@media (max-width:768px) {
+
+    .card {
+        width: 165px;
+        padding: 5px 5px 0 5px;
+    }
+
+    .img {
+        width: 155px;
+        height: 95px;
+    }
+
+    .card h5 {
+        font-size: 0.9rem;
+    }
+
+    .year {
+        font-size: 0.6rem;
+        padding: 0 11px;
+        outline-offset: -7px;
+    }
+
+    .card i {
+        margin: 0 5px;
+        font-size: 0.7rem;
+    }
+
+    .card p {
+        font-size: 0.6rem;
+        margin-bottom: 5px;
+    }
+
+    .card_bottom span {
+        font-size: 0.9rem !important;
+    }
+
+    .card_bottom i {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width:576px) {
+
+    .card {
+        width: 145px;
+    }
+
+    .img {
+        width: 135px;
+        height: 90px;
+    }
+
+    .like_icon {
+        display: flex;
+        width: auto;
+    }
+
+    .btn {
+        width: max-content;
     }
 }
